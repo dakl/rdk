@@ -31,9 +31,8 @@ venndia(A=1:6, B=3:9, C=c(1,3,5,7,9), alab = "KALLE", blab="OLLE", clab="blurg",
 vd <- venndia(A=1:6, B=3:9, C=c(1,3,5,7,9), getdata = TRUE)
 vd$AB
 ```
-### just calculate overlaps, don't plot
+### Just calculate overlaps, don't plot
 ```
 vd <- venndia(A=1:6, B=3:9, C=c(1,3,5,7,9), getdata = TRUE, plot = FALSE)
 vd$AB
 ```
-
